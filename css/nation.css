@@ -1,0 +1,237 @@
+body{
+	margin: 0;
+   font-family: "Times New Roman", Times, serif;
+   background-color: none;
+   overflow-x: hidden;
+  }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
+	}
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+  /*css for header*/
+
+.safari{
+  	background-color: black;
+  	color: white;
+  	position: relative;
+  	height: 90px;
+  }
+.logo-safari{
+margin-left: 15px;
+}
+.logo-safari h1{
+	color: #fff;
+	font-weight: 500;
+	font-size: 46px;
+	padding: 10px 0 0 24px;
+	letter-spacing: 0.05em;
+	display: inline-block;
+	vertical-align: middle;
+}
+#logo-words{
+color: #F39C12;
+padding-left: 30px;
+	}
+
+	/*navbar*/
+#nav ul li {
+float: left;
+display: inline-block;
+	text-transform: capitalize;
+	padding-top: 40px; 
+}
+#nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#nav ul li a, #nav ul li span {
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+	font-weight: 800;
+	letter-spacing: 0.025em;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5em 1em 0.5em 1em;
+}
+#nav ul li > ul {
+	display: none;
+}
+
+#nav ul li:hover a, #nav ul li:hover span {
+	background: #F8C471;  
+}
+
+#nav ul li a.active{
+	color: #F39C12;
+}
+
+/*container section*/
+section {
+	margin-top: 20px;
+}
+section .container{
+	min-width: 800;
+	background-color: #CCD1D1;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+.container{
+	min-width: 800;
+	margin-right: 55px;
+	margin-left: 55px;
+	margin-top: 40px;
+}
+.page-wrapper{
+	margin-right: 15px;
+	margin-left: 35px;
+}
+/*page-contantens*/
+
+.npark-contents{
+	height: 520px;
+}
+
+.nparks-contents section{
+	height: 500px;
+}
+.npark-contents aside{
+	float: left;
+/*	width: 790px;
+*/}
+.npark-contents section{
+	float: right;
+	width: 290px;
+
+}
+
+
+aside h2{
+	font-weight: 500;
+	font-size: 43px;
+	padding-left: 20px;
+	color: #273746;
+}
+aside h3{
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 10PX;
+	padding-left: 20px;
+	color: #273746;
+	line-height: 1.25em;
+	font-family: cursive;
+}
+
+section h2 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #493831;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+/*css for the most visited part*/
+.visited header{
+	height: 60px; 
+	background-color: grey;
+	
+}
+header h2{
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-left: 18px;
+	color: white;
+	text-transform: capitalize;
+}
+.visited{
+	background-color: #EAEDED;
+	opacity: 0.7;
+	width: 260px;
+	height: 600px;
+}
+
+.details aside{
+	float: left;
+}
+.details section{
+	float: right;
+	width: 360px;
+}
+.info{
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.info h5{
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.info p{
+	font-size: 14px;
+	font-family: cursive;
+	opacity: 0.9;
+
+}
+.info_npark{
+	background-color: #fff;
+	height: 195px;
+	border-left: 8px solid #EAEDED;
+	border-right: 60px solid #EAEDED;
+	border-bottom: 4px  solid #EAEDED;
+	border-top: 4px solid #EAEDED ;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/* Image */
+.image {
+	display: inline-block;
+	outline: 0;
+}
+
+.image img {
+	border-radius: 2px;
+}
+
+.image.fit {
+	width: 100%;
+	float: left;
+	padding: 6px 10px 0px 4px;
+}
+.data{
+	background-color: white;
+	width: 240px;
+	margin-left:15px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+	border-radius: 10px;
+		}
+.data h5{
+	color: #F39C12;
+	font-size: 18px;
+	font-weight: 600;
+}
+		
+/*footer*/
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    margin-top: 20px;
+    text-align: center;
+}
+footer span{
+	color:#F39C12; 
+}
