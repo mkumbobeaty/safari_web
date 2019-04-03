@@ -10,6 +10,17 @@ body{
 	background-color: red;
 }
 
+.page-wrapper{
+	position: relative;
+	z-index: 99;
+	/*background-color: #fff;*/
+	padding-bottom: 560px;
+}
+
+.content-holder{
+	background-color: #fff;
+}
+
 
 
 
@@ -152,4 +163,15 @@ body{
 	margin: 0px ;
 }
 
+}
+
+
+
+
+.page-footer{
+	height: 560px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
